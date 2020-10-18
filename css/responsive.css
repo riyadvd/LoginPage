@@ -1,0 +1,17 @@
+@media only screen and (max-width:1700px){
+    .form-body {
+        width: 28%;
+    }
+}
+
+@media only screen and (max-width:1440px){
+    .form-body {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width:1227px){
+    .form-body {
+        width: 36%;
+    }
+}

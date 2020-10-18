@@ -1,0 +1,92 @@
+/*W3ubs.com - Download Free Responsive Website Layout Templates designed on 
+HTML5 CSS3,Bootstrap which are 100% Mobile friendly. 
+w3Hubs all Layouts are responsive cross browser supported,
+best quality world class designs.*/
+body {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+#particles-js {
+    height: 100vh !important;
+	background-image: radial-gradient(#c26575,#673d6d, #161d6d) !important;
+}
+
+#container-div{
+    position: absolute;
+    
+}
+
+.form-body{
+    background-color: rgba(255, 255, 255, 0.7);
+    height:25rem;
+    width:24%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 5.4rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0px;
+    background-color: #ffffff;
+    transition: 0.5s;
+    box-shadow:-5px 1px #0000005e;
+    border-left: 1px solid rgb(234, 234, 234);
+  }
+  .sidenav a {
+    padding: 2px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+  }
+
+#mySidenav a{
+    padding-bottom:22px;
+    padding-top:22px;
+    color: black;
+}
+
+a{
+    border-top: 1px solid rgb(169, 168, 168);
+    border-bottom: 1px solid rgb(169, 168, 168);
+}
+
+#login-form{
+    border-radius:7px;
+}
+
+.title-font{
+    font-size: 20px;
+    color:black;
+    font-weight:bold;
+}
+
+.title-font::after{
+    content:"__________";
+    display: block;
+    margin-top:-4px;
+    
+}
+
+.red{
+    color:red;
+}
+
+.form-font{
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.btn-red{
+    background-color:#dd3546;
+}
+
+#mySidenav a:hover{
+    color:grey;
+}
