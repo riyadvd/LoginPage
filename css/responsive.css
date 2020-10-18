@@ -23,4 +23,7 @@
     .sidenav a {
         font-size: 10px;
     }
+    .form-body {
+        width: 55%;
+    }
 }
