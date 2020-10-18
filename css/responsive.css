@@ -15,3 +15,12 @@
         width: 36%;
     }
 }
+
+@media only screen and (max-width:990px){
+    .sidenav {
+        width: 3.4rem !important;
+    }
+    .sidenav a {
+        font-size: 10px;
+    }
+}
