@@ -95,3 +95,33 @@ canvas{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
+.navbar-overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  background-color: rgba(0,0,0,.8);
+  opacity: 0;
+  z-index: 998;
+}
+
+.overlay-add{
+  display:block !important;
+  opacity:0.6;
+}
+.side-hide{
+  overflow-x: hidden !important;
+  width:0px !important;
+}
+
+#nav-overlay{
+  z-index:997;
+}
+
+#side-nav{
+  z-index:998;
+}
